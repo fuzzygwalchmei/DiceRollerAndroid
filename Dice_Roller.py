@@ -9,9 +9,9 @@ def strip_regex(regex, string):
     Takes a regex string and a text string.
     Returns a list of items found matching the regex string
     """
-    return re.findall(reg, string)
+    return re.findall(regex, string)
 
-def roll_dice(number=1 :int, dice=6 :int):
+def roll_dice(number=1, dice=6):
     """
     Takes 2 values. The number of dice to be rolled (defaults to 1),
     as well as the type of dice to be rolled (as a number)
