@@ -1,0 +1,19 @@
+{
+    "BASECHARS": {
+            "b":{"type":"Player","name":"Barbarian","attack":3,"defend":2,"move":2,"mind":2,"body":8},
+            "w":{"type":"Player","name":"Wizard","attack":1,"defend":2,"move":2,"mind":6,"body":4},
+            "e":{"type":"Player","name":"Elf","attack":2,"defend":2,"move":2,"mind":4,"body":6},
+            "d":{"type":"Player","name":"Dwarf","attack":2,"defend":2,"move":2,"mind":3,"body":7}
+        }
+,
+    "MONSTERS":{
+            "g":{"type":"Monster","name":"Goblin","move":10,"attack":2,"defend":1,"body":1,"mind":1},
+            "o":{"type":"Monster","name":"Orc","move":8,"attack":3,"defend":2,"body":1,"mind":2},
+            "f":{"type":"Monster","name":"Fimir","move":6,"attack":3,"defend":3,"body":1,"mind":3},
+            "s":{"type":"Monster","name":"Skeleton","move":6,"attack":2,"defend":2,"body":1,"mind":0},
+            "z":{"type":"Monster","name":"Zombie","move":4,"attack":2,"defend":3,"body":1,"mind":0},
+            "m":{"type":"Monster","name":"Mummy","move":4,"attack":3,"defend":4,"body":1,"mind":0},
+            "c":{"type":"Monster","name":"Chaos Warrior","move":6,"attack":3,"defend":4,"body":1,"mind":3},
+            "w":{"type":"Monster","name":"Warlock","move":6,"attack":4,"defend":4,"body":1,"mind":4}}
+
+}
